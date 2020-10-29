@@ -2,7 +2,7 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   # write your code here!
-   =  data[gender][male] + data[gender][female] 
+  Hash.new =  data[gender][male] + data[gender][female] 
   
   #make a new hash with all the names
   

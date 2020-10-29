@@ -9,6 +9,6 @@ def nyc_pigeon_organizer(data)
  #identify keys and values of each names
  
   
-  
+  binding.pry
   
 end

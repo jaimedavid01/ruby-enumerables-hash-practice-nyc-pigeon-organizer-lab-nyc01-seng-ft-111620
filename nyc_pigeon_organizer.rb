@@ -20,4 +20,3 @@ data.each do |color_gender_lives, categories|
       end
     end
   end
-e

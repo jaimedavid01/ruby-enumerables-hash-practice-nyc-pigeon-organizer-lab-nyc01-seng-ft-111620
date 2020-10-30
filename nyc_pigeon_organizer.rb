@@ -10,7 +10,11 @@ data.each do |color_gender_lives, categories|
       
       if new_hash[name]
         if new_hash[name][color_gender_lives]
-          new_hash[name][property] << catigories
+          new_hash[name][color_gender_lives] << catigories
+        else
+          new_hash[name][color_gender_lives] = categories
+        end
+      else
 
  
   

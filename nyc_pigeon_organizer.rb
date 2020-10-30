@@ -8,7 +8,7 @@ data.each do |color_gender_lives, categories|
   categories.each do |values, array_birds|
     array_birds.each do |name|
       
-      if new_hashhas_key?(name)
+      if new_hash.has_key?(name)
         if new_hash[name].has_key?(color_gender_lives)
           new_hash[name][color_gender_lives] << values.to_s
         else

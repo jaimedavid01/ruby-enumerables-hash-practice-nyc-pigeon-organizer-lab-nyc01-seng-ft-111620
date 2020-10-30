@@ -23,3 +23,4 @@ data.each do |color_gender_lives, categories|
  new_hash
 
 end
+end

@@ -15,9 +15,10 @@ data.each do |color_gender_lives, categories|
           new_hash[name][color_gender_lives] = [values.to_s]
       end
       else
-        new_hash[name] = {color_gender_lives => [values]}
+        new_hash[name] = {color_gender_lives => [values.to_s]}
       end
       end
     end
   end
+new_hash
 end

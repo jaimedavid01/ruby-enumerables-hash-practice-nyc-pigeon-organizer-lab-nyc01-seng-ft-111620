@@ -2,18 +2,18 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   # write your code here!
-  #new_hash = {}
- 
- names1 = data.to_a[1][1][:male]
- names2 = data.to_a[1][1][:female]
+  new_hash = {}
 
-  
+data.each do |color_gender_lives, categories|
+  categories.each do |categories, array_birds|
+    array_birds.each do |name|
+      
+      if new_hash[name]
+        if new_hash[name][color_gender_lives]
+          new_hash[name][property] << catigories
 
-  #make a new hash with all the names
-  
- #identify keys and values of each names
  
   
-  binding.pry
+
   
 end
